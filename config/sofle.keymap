@@ -23,11 +23,26 @@
 // | SHIFT |  Z  |  X  |  C   |  D   |  V   |   F9   |  |  QWT  |  K   |  H    |  ,    |  .   |   /   | SHIFT |
 //               |  UP | DOWN | CTRL |  TAB |  SPACE |  | ENTER | BSPC |  ALT  | LEFT  | RIGHT|
             bindings = <
-    &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                      &kp N6    &kp N7    &kp N8    &kp N9   &kp N0       &kp DEL
-    &kp GRAVE   &kp Q       &kp W       &kp F       &kp P       &kp B                       &kp J     &kp L     &kp U     &kp Y    &kp SEMI     &kp BSLH
-    &lt FN CAPS &kp A       &kp R       &kp S       &kp T       &kp G                       &kp M     &kp N     &kp E     &kp I    &kp O        &kp SQT
-    &kp LSHFT   &kp Z       &kp X       &kp C       &kp D       &kp V   &kp F9     &tog QWT &kp K     &kp H     &kp COMMA &kp DOT  &kp FSLH     &kp RSHFT
-                            &kp UP      &kp DOWN    &kp LCTRL   &kp TAB &kp SPACE  &kp RET  &kp BSPC  &kp LALT  &kp LEFT  &kp RIGHT
+    //left r1
+    &kp N5      &kp N4    &kp N3    &kp N2    &kp N1    &kp ESC            
+    //right r1
+    &kp N6      &kp N7    &kp N8    &kp N9    &kp N0    &kp DEL
+    //left r2
+    &kp B       &kp P     &kp F     &kp W     &kp Q     &kp GRAVE
+    //right r2
+    &kp J       &kp L     &kp U     &kp Y     &kp SEMI  &kp BSLH
+    //left r3
+    &kp G       &kp T     &kp S     &kp R     &kp A     &lt FN CAPS
+    //right r3
+    &kp M       &kp N     &kp E     &kp I     &kp O     &kp SQT
+    //left r4
+    &kp V       &kp D     &kp C     &kp X     &kp Z     &kp LSHFT    &kp F9
+    //right r4
+    &tog QWT    &kp K     &kp H     &kp COMMA &kp DOT   &kp FSLH &kp RSHFT
+    //left r5
+    &kp SPACE   &kp TAB   &kp LCTRL &kp DOWN  &kp UP  
+    //right r5
+    &kp RET     &kp BSPC  &kp LALT  &kp LEFT  &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp F7 F8 &inc_dec_kp PG_UP PG_DN>;
