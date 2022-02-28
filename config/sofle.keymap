@@ -21,7 +21,7 @@
 // |  GRV  |  Q  |  W  |  F   |  P   |  B   |                   |  J   |  L    |  U    |  Y   |   ;   |   \   |
 // |  CAPS |  A  |  R  |  S   |  T   |  G   |                   |  M   |  N    |  E    |  I   |   O   |   '   |
 // | SHIFT |  Z  |  X  |  C   |  D   |  V   |   F9   |  |  QWT  |  K   |  H    |  ,    |  .   |   /   | SHIFT |
-//               |  UP | DOWN | CTRL |  TAB |  SPACE |  | ENTER | BSPC |  ALT  | LEFT  | RIGHT|
+//               | CTRL| PGUP | PGDN |  TAB |  SPACE |  | ENTER | BSPC |  HOME |  END  |  ALT |
             bindings = <
     //left r1
     &kp N5      &kp N4      &kp N3      &kp N2      &kp N1      &kp ESC            
@@ -40,9 +40,9 @@
     //right r4
     &tog QWT    &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
     //left r5
-    &kp SPACE   &kp TAB     &kp LCTRL   &kp DOWN    &kp UP
+    &kp SPACE   &kp TAB     &kp PG_DN   &kp PG_UP   &kp LCTRL
     //right r5
-    &kp RET     &kp BSPC    &kp LALT    &kp LEFT    &kp RIGHT
+    &kp RET     &kp BSPC    &kp HOME    &kp END     &kp LALT
             >;
 
             sensor-bindings = <&inc_dec_kp F7 F8 &inc_dec_kp PG_UP PG_DN>;
@@ -55,7 +55,7 @@
 // |  GRV  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   \   |
 // |  CAPS |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   |   F9   |  |  QWT  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
-//               |  UP | DOWN | CTRL |  TAB |  SPACE |  | ENTER | BSPC |  ALT  | LEFT  | RIGHT|
+//               | CTRL| PGUP | PGDN |  TAB |  SPACE |  | ENTER | BSPC |  HOME |  END  |  ALT |
 // ------------------------------------------------------------------------------------------------------------
             bindings = <
     //left r1
@@ -90,7 +90,7 @@
 // | btclr | bt1 | bt2 |  bt3 |  bt4 |  bt5 |                   |      |       |      |      |       |       |
 // |       |     |     |      |      |      |                   |      |  -    |  =   |  [   |   ]   |       |
 // |       |     |     |      |      |      |        |  |       |      |  _    |  +   |  {   |   }   |       |
-//               |     |      |      |      |        |  |       |      |       |      |      |
+//               | CTRL|      |      |  ALT |   GUI  |  |  GUI  | LEFT |  DOWN |  UP  | RGHT |
             bindings = <
     //left r1
     &kp F6      &kp F5      &kp F4      &kp F3      &kp F2      &kp F1
@@ -109,9 +109,9 @@
     //right r4
     &trans      &kp UNDER   &kp PLUS    &kp RBKT    &kp RBRC    &trans  &trans
     //left r5
-    &kp LGUI    &trans      &kp RCTRL   &kp PG_DN   &kp PG_UP
+    &kp LGUI    &kp RALT    &trans      &trans      &kp RCTRL   
     //right r5
-    &trans      &trans      &kp RALT    &kp HOME    &kp END
+    &kp RGUI    &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp F7 F8 &inc_dec_kp PG_UP PG_DN>;
