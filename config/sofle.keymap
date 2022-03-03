@@ -107,7 +107,7 @@
     //left r4
     &trans      &trans      &trans      &trans      &trans      &trans  &trans
     //right r4
-    &trans      &kp UNDER   &kp PLUS    &kp RBKT    &kp RBRC    &trans  &trans
+    &trans      &trans      &kp UNDER   &kp PLUS    &kp RBKT    &kp RBRC      &trans
     //left r5
     &kp LGUI    &kp RALT    &trans      &trans      &kp RCTRL   
     //right r5
