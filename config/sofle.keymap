@@ -39,7 +39,7 @@
     //left r4
     &kp V       &kp D       &kp C       &kp X       &kp Z       &kp LSHFT   &kp F9
     //right r4
-    &tog QWT    &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
+    &ext_power EP_TOG &kp K &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
     //left r5
     &kp SPACE   &kp TAB     &kp PG_DN   &kp PG_UP   &kp LCTRL
     //right r5
