@@ -37,7 +37,7 @@
     //right r3
     &kp M       &kp N       &kp E       &kp I       &kp O       &kp SQT
     //left r4
-    &kp V       &kp D       &kp C       &kp X       &kp Z       &kp LSHFT   &kp F9
+    &kp V       &kp D       &kp C       &kp X       &kp Z       &kp LSHFT   &ext_power EP_TOG
     //right r4
     &ext_power EP_TOG &kp K &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
     //left r5
