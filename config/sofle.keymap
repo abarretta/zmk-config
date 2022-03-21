@@ -106,7 +106,7 @@
     //right r3
     &trans      &kp MINUS   &kp EQUAL   &kp LBKT    &kp LBRC    &trans
     //left r4
-    &trans      &trans      &trans      &trans      &trans      &trans   &ext_power EP_ON
+    &trans      &trans      &trans      &trans      &trans      &trans   &ext_power EP_TOG
     //right r4
     &trans      &trans      &kp UNDER   &kp PLUS    &kp RBKT    &kp RBRC &trans
     //left r5
