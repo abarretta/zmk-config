@@ -76,7 +76,7 @@
     //right r4
     &tog QWT    &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
     //left r5
-    &kp SPACE   &kp TAB     &kp PG_DN   &kp PG_UP    &kp LCTRL
+    &kp SPACE   &kp TAB     &kp PG_DN   &kp PG_UP   &kp LCTRL
     //right r5
     &kp RET     &kp BSPC    &kp HOME    &kp END    &kp LALT
             >;
