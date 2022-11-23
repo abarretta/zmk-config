@@ -84,7 +84,7 @@
         }; 
         
         fn_layer {
-            label = "fn layer";
+            label = "FROW";
             bindings = <
                 &bt BT_PRV  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  
                 &bt BT_CLR  &kp F10   &kp F11    &kp F12    &none     
