@@ -10,6 +10,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/ext_power.h>
 
+#define DEFAULT 0
+#define FROW 1
 #define TIMEOUT 300
 
 &encoder_1 {
@@ -84,7 +86,7 @@
         }; 
         
         fn_layer {
-            label = "FROW";
+            label = "F ROW";
             bindings = <
                 &bt BT_PRV  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  
                 &bt BT_CLR  &kp F10   &kp F11    &kp F12    &none     
