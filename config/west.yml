@@ -11,7 +11,7 @@ manifest:
     #   import: app/west.yml
     - name: zmk-oled-fix
       remote: oledFix
-      revision: main
+      revision: v3.0.0+zmk-fixes
       import: app/west.yml
   self:
     path: config
