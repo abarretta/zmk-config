@@ -3,13 +3,13 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: oledFix
-      url-base: https://github.com/abarretta/zmk-oled-fix
+      url-base: https://github.com/abarretta
   projects:
     # - name: zmk
     #   remote: zmkfirmware
     #   revision: main
     #   import: app/west.yml
-    - name: zmk
+    - name: zmk-oled-fix
       remote: oledFix
       revision: main
       import: app/west.yml
