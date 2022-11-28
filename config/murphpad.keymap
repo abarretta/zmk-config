@@ -45,11 +45,11 @@
             key-positions = <1 6>;
             bindings = <&bootloader>;
         };
-        combo_bootloader {
+        combo_rgb_toggle {
             timeout-ms = <TIMEOUT>;
             key-positions = <1 9>;
-            binding = <&rgb_ug RGB_TOG>;
-        }
+            bindings = <&rgb_ug RGB_TOG>;
+        };
     };
     
     sensors {
