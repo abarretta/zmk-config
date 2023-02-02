@@ -17,7 +17,6 @@ include:
     shield: murphpad
   - board:  nice_nano_v2
     shield: settings_reset
-include:
   - board: nice_nano_v2
-    shield: murphpad
+    shield: vanana
 
