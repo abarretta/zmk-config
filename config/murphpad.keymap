@@ -78,7 +78,7 @@
                 &bt BT_NXT  &kp KP_N7   &kp KP_N8      &kp KP_N9        &kp KP_PLUS   
                 &tog FROW   &kp KP_N4   &kp KP_N5      &kp KP_N6        &kp KP_PLUS
                 &login      &kp KP_N1   &kp KP_N2      &kp KP_N3        &kp KP_ENTER
-                &kp DEL     &kp KP_N0   &kp KP_N0      &kp KP_DOT       &kp KP_ENTER
+                &kp BSPC    &kp KP_N0   &kp KP_N0      &kp KP_DOT       &kp KP_ENTER
             >;
             sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
 
