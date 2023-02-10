@@ -9,8 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define DEFAULT 0
-#define QWERTY 1
-#define PUNC 2
+#define PUNC 1
 
 // DEFAULT
 // ------------------------------------------------------------------------------------------------------------
@@ -19,14 +18,6 @@
 // | CAP/LT|  A  |  R  |  S   |  T   |  G   |                   |  M   |  N    |  E    |  I   |   O   |   '   |
 // | SHIFT |  Z  |  X  |  C   |  D   |  V   |  MUTE  |  |       |  K   |  H    |  ,    |  .   |   /   | SHIFT |
 //               | CTRL| PGUP | PGDN |  TAB |  SPACE |  | ENTER | BSPC | HOME  | END   | ALT  |
-
-// QWERTY
-// ------------------------------------------------------------------------------------------------------------
-// |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |  DEL  |
-// |  GRV  |  Q  |  W  |  F   |  P   |  B   |                   |  J   |  L    |  U    |  Y   |   ;   |   \   |
-// | CAP/LT|  A  |  R  |  S   |  T   |  G   |                   |  M   |  N    |  E    |  I   |   O   |   '   |
-// | SHIFT |  Z  |  X  |  C   |  D   |  V   |  MUTE  |  |       |  K   |  H    |  ,    |  .   |   /   | SHIFT |
-//               |LCTRL| PGUP | PGDN |  TAB |  SPACE |  | ENTER | BSPC | HOME  | END   | LALT |
 
 // PUNC
 // ------------------------------------------------------------------------------------------------------------
@@ -42,23 +33,11 @@
 
         default_layer {
             bindings = <
-                &kp ESC    &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                 &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp DEL
-                &kp GRAV   &kp Q     &kp W     &kp F       &kp P     &kp B                  &kp Y       &kp U       &kp I       &kp O       &kp P       &kp BSLH
-                &lt 2 CAPS &kp A     &kp R     &kp S       &kp T     &kp G                  &kp M       &kp N       &kp E       &kp I       &kp O       &kp SQT
-                &kp LSFT   &kp Z     &kp X     &kp C       &kp D     &kp V   &kp F9 &tog 1  &kp K       &kp H       &kp CMMA    &kp DOT     &kp FSLH    &kp RSFT
-                           &kp LCTRL &kp PG_UP &kp PG_DN   &kp TAB   &kp SPC                &kp RET     &kp BSPC    &kp HOME    &kp END     &kp LALT
-            >;
-
-            sensor-bindings = <&inc_dec_kp F8 F7 &inc_dec_kp F8 F7>;
-        };
-
-        qwerty_layer {
-            bindings = <
-                &trans    &trans    &trans    &trans      &trans    &trans                 &trans      &trans      &trans      &trans      &trans      &trans
-                &trans    &kp Q     &kp W     &kp E       &kp R     &kp T                  &kp Y       &kp U       &kp I       &kp O       &kp P       &trans
-                &trans    &kp A     &kp R     &kp S       &kp T     &kp G                  &kp H       &kp J       &kp K       &kp L       &kp SCLN    &trans
-                &trans    &kp Z     &kp X     &kp C       &kp D     &kp V   &trans &trans  &kp N       &kp M       &trans      &trans      &trans      &trans
-                          &trans    &trans    &trans      &trans    &trans                 &trans      &trans      &trans      &trans      &trans
+                &kp N1     &kp N2    &kp N3    &kp N4      &kp N5    &kp ESC                           &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp DEL
+                &kp B      &kp P     &kp F     &kp W       &kp Q     &kp GRAV                          &kp J       &kp L       &kp U       &kp Y       &kp SCLN    &kp BSLH
+                &kp G      &kp T     &kp S     &kp R       &kp A     &lt 1 CAPS                        &kp M       &kp N       &kp E       &kp I       &kp O       &kp SQT
+                &kp F9     &kp V     &kp D     &kp C       &kp X     &kp Z      &kp LSFT &C_AL_COFFEE  &kp K       &kp H       &kp CMMA    &kp DOT     &kp FSLH    &kp RSFT
+                           &kp SPC   &kp TAB   &kp PG_DN   &kp PG_UP &kp LCTRL                         &kp RET     &kp BSPC    &kp HOME    &kp END     &kp LALT
             >;
 
             sensor-bindings = <&inc_dec_kp F8 F7 &inc_dec_kp F8 F7>;
