@@ -33,11 +33,11 @@
 
         default_layer {
             bindings = <
-                &kp N1     &kp N2    &kp N3    &kp N4      &kp N5    &kp ESC                           &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp DEL
-                &kp B      &kp P     &kp F     &kp W       &kp Q     &kp GRAV                          &kp J       &kp L       &kp U       &kp Y       &kp SCLN    &kp BSLH
-                &kp G      &kp T     &kp S     &kp R       &kp A     &lt 1 CAPS                        &kp M       &kp N       &kp E       &kp I       &kp O       &kp SQT
-                &kp F9     &kp V     &kp D     &kp C       &kp X     &kp Z      &kp LSFT &kp C_AL_COFFEE  &kp K       &kp H       &kp CMMA    &kp DOT     &kp FSLH    &kp RSFT
-                           &kp SPC   &kp TAB   &kp PG_DN   &kp PG_UP &kp LCTRL                         &kp RET     &kp BSPC    &kp HOME    &kp END     &kp LALT
+                &kp N1    &kp N2    &kp N3    &kp N4     &kp N5    &kp ESC                           &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp DEL
+                &kp B     &kp P     &kp F     &kp W      &kp Q     &kp GRAV                          &kp J       &kp L       &kp U       &kp Y       &kp SCLN    &kp BSLH
+                &kp G     &kp T     &kp S     &kp R      &kp A     &lt 1 CAPS                        &kp M       &kp N       &kp E       &kp I       &kp O       &kp SQT
+                &kp V     &kp D     &kp C     &kp X      &kp Z     &kp LSFT  &kp F9  &kp C_AL_COFFEE &kp K       &kp H       &kp CMMA    &kp DOT     &kp FSLH    &kp RSFT
+                          &kp SPC   &kp TAB   &kp PG_DN  &kp PG_UP &kp LCTRL                         &kp RET     &kp BSPC    &kp HOME    &kp END     &kp LALT
             >;
 
             sensor-bindings = <&inc_dec_kp F8 F7 &inc_dec_kp F8 F7>;
@@ -49,7 +49,7 @@
                 &none     &none     &none     &none     &none     &none                     &none     &none     &none     &none     &none     &none
                 &none     &none     &none     &none     &none     &none                     &none     &kp MINUS &kp EQUAL &kp LBKT  &kp LBRC  &none
                 &none     &none     &none     &none     &none     &none    &none   &none    &none     &kp UNDER &kp PLUS  &kp RBKT  &kp RBRC  &none
-                          &kp RCTRL &trans    &trans    &trans    &kp LGUI                  &kp RGUI  &trans    &trans    &trans    &kp RALT
+                          &none     &none     &none     &none     &kp LGUI                  &none     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp F8 F7 &inc_dec_kp F8 F7>;
